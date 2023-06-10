@@ -19,7 +19,7 @@ mongoose
   .catch((err) => console.log(err));
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://react-netflix-app-chi.vercel.app/",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };

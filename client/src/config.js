@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "http://localhost:8800/api/";
+const baseURL = "https://api-netflix-app.vercel.app/api/";
 
 const axiosInstance = axios.create({
   baseURL,
